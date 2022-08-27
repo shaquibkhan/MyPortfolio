@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "***\r  - ### Tehcnology used in this project\r  1. HTML5\r  2. Tailwind CSS\r  > It's my first project in tailwind css",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaquibkhan/MyPortfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaquibkhan/MyPortfolio/issues"
+  },
+  "homepage": "https://github.com/shaquibkhan/MyPortfolio#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}

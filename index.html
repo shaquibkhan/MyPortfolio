@@ -7,178 +7,454 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="./dist/output.css">
+    <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>SHAQUIB | AHMAD | KHAN</title>
 </head>
 
 <body>
-    <header>
-        <div class="logo-header">
-            <p class="sk"> SK </p>
-            <h3>Nothing work unless you do. . .</h3>
+    <div class="hero-section flex md:mx-auto">
+        <header class="hidden md:flex h-screen bg-[#000000] w-32">
+            <div class=" text-white flex flex-col">
+                <nav class="">
+                    <div class="text-center  hover:text-[#e3e3df]">
+                        <p class="text-8xl">SK</p>
+                        <p class="text-xl mt-2">shaQuib khan</p>
+                        <p class="text-sm text-[#e3e3df] mt-2">Web Developer</p>
+                    </div>
+                    <ul class="bg-[#181818] text-center h-full">
+                        <li class="mx-3 mt-3" href="">...</li>
+                        <a href="https://shaquibkhan.hashnode.dev/" target="_blank
+                    ">
+                            <li class="mx-3 text-[#e3e3df] hover:border-b-2 [#08fbd6] py-2 hover:text-[#08fbd6]">BLOG
+                            </li>
+                        </a>
+                        <a href="">
+                            <li class="mx-3 text-[#e3e3df] hover:border-b-2 [#08fbd6] py-2 hover:text-[#08fbd6] "
+                                href="">ABOUT ME</li>
+                        </a>
+                        <a href="#experience">
+                            <li class="mx-3 text-[#e3e3df] hover:border-b-2 [#08fbd6] py-2 hover:text-[#08fbd6] "
+                                href="">EXPERIENCE</li>
+                        </a>
+                        <a href="#education">
+                            <li class="mx-3 text-[#e3e3df] hover:border-b-2 [#08fbd6] py-2 hover:text-[#08fbd6] "
+                                href="">EDUCATION</li>
+                        </a>
+                        <a href="#skills">
+                            <li class="mx-3 text-[#e3e3df] hover:border-b-2 [#08fbd6] py-2 hover:text-[#08fbd6] "
+                                href="">SKILLS </li>
+                        </a>
+                        <a href="#myWork">
+                            <li class="mx-3 text-[#e3e3df] hover:border-b-2 [#08fbd6] py-2 hover:text-[#08fbd6] "
+                                href="">MY WORK</li>
+                        </a>
+                        <a href="">
+                            <li class="mx-3 text-[#e3e3df] hover: py-2 flex justify-between">
+                                <a href="https://github.com/shaquibkhan"><i
+                                        class="hover:text-[#08fbd6] fa-brands fa-github"></i></a>
+                                <a href="https://twitter.com/shaQuibtwt"><i
+                                        class="hover:text-[#08fbd6] fa-brands fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/shaquib-ahmad-khan-736484140/"><i
+                                        class="hover:text-[#08fbd6] fa-brands fa-linkedin"></i></a>
+                                <a href="https://github.com/shaquibkhan"><i
+                                        class="hover:text-[#08fbd6] fa-brands fa-instagram"></i></a>
+                            </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="hidden md:flex justify-around w-full h-screen hero-sec bg-[#1d1d1d] lg:pl-32 pt-32 px-8">
+            <div class="text-white flex flex-col gap-5 w-96 font-mono">
+                <p class="text-5xl text-[#08fbd6]">I WRITE CODE.</p>
+                <p class="hidden md:block hover:text-[#e3e3df]">I’m a Front-End Developer located in India. I have a
+                    serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
+                <p class="hidden md:block hover:text-[#e3e3df]">Well-organised person, problem solver, independent
+                    employee with high attention to detail. Fan of MMA, cricket & outdoor activities.</p>
+                <p class="hidden md:block hover:text-[#e3e3df]">Interested in the entire frontend spectrum and working
+                    on ambitious projects with positive people.
+                    Let’s make something special.</p>
+            </div>
+            <div>
+                <img src="./assets/mySelfie.jpg" class="bg-white border rounded w-auto h-96" alt="">
+            </div>
+        </section>
+    </div>
+    <!-- mobile -->
+    <div class="md:hidden bg-[#000000]">
+        <div class="flex items-center">
+            <button class="outline-none mobile-menu-button">
+                <svg class="w-6 h-6 text-gray-500" x-show="!showMenu" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                    <path d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
         </div>
-        <!-- <ul class="list">
-            <a class="list-item" href="">HOME</a>
-            <a class="list-item" href="">ABOUT ME</a>
-            <a class="list-item" href="">EXPERIENCE</a>
-            <a class="list-item" href="">EDUCATION</a>
-            <a class="list-item" href="">SKILLS </a>
-            <a class="list-item" href="">MY WORK</a>
-        </ul> -->
-    </header>
-    <div class="bg">
-        <div class="flex-row">
-            <img src="./assets/my-img.jpg" alt="">
-            <h1 class="animated infifite">Shaquib Ahmad Khan...</h1>
-            <h3>I WRITE CODE . . .</h3>
+        <header class="hidden mobile-menu">
+            <div class=" text-white flex flex-col">
+                <nav class="">
+                    <ul class="bg-[#181818] text-center h-full">
+                        <li class="mx-3 mt-3" href="">...</li>
+                        <a href="https://shaquibkhan.hashnode.dev/" target="_blank
+                ">
+                            <li class="mx-3 text-[#e3e3df] hover:border-b-2 [#08fbd6] py-2 hover:text-[#08fbd6]">BLOG
+                            </li>
+                        </a>
+                        <a href="">
+                            <li class="mx-3 text-[#e3e3df] hover:border-b-2 [#08fbd6] py-2 hover:text-[#08fbd6] "
+                                href="">
+                                ABOUT ME</li>
+                        </a>
+                        <a href="#experience">
+                            <li class="mx-3 text-[#e3e3df] hover:border-b-2 [#08fbd6] py-2 hover:text-[#08fbd6] "
+                                href="">
+                                EXPERIENCE</li>
+                        </a>
+                        <a href="">
+                            <li class="mx-3 text-[#e3e3df] hover:border-b-2 [#08fbd6] py-2 hover:text-[#08fbd6] "
+                                href="">
+                                EDUCATION</li>
+                        </a>
+                        <a href="">
+                            <li class="mx-3 text-[#e3e3df] hover:border-b-2 [#08fbd6] py-2 hover:text-[#08fbd6] "
+                                href="">
+                                SKILLS </li>
+                        </a>
+                        <a href="">
+                            <li class="mx-3 text-[#e3e3df] hover:border-b-2 [#08fbd6] py-2 hover:text-[#08fbd6] "
+                                href="">MY
+                                WORK</li>
+                        </a>
+                        <a href="">
+                            <li class="mx-3 text-[#e3e3df] hover: py-2 flex justify-center gap-6">
+                                <a href="https://github.com/shaquibkhan"><i
+                                        class="hover:text-[#08fbd6] fa-brands fa-github"></i></a>
+                                <a href="https://twitter.com/shaQuibtwt"><i
+                                        class="hover:text-[#08fbd6] fa-brands fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/shaquib-ahmad-khan-736484140/"><i
+                                        class="hover:text-[#08fbd6] fa-brands fa-linkedin"></i></a>
+                                <a href="https://github.com/shaquibkhan"><i
+                                        class="hover:text-[#08fbd6] fa-brands fa-instagram"></i></a>
+                            </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="md:hidden mobile-only mt-16">
+            <div class="flex flex-col gap-6 place-items-center">
+                <div>
+                    <p class="text-5xl text-[#08fbd6]">I WRITE CODE.</p>
+                </div>
+                <div>
+                    <img src="./assets/mySelfie.jpg" class="bg-white border rounded-full w-auto h-96" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="text-3xl ml-12 mt-12">
+            <p class="text-[#fff]"><i class="fa-solid fa-quote-left"></i> Hello world <i class="fa-solid fa-hand"> </i>
+                <i class="fa-solid fa-quote-right"></i>
+            </p>
+            <p class="text-2xl text-[#fff] mt-6">I am <span class="text-3xl text-[#08fbd6]">shaQuib Khan</span></p>
+            <p class="text-xl text-[#fff] mt-1">Front End Web Developer</p>
+        </div>
+        <!-- about me -->
+        <div class="bg-[#181818]  text-white flex flex-col gap-6 ml-12 mr-12 mt-20">
+            <div class="mt-12 mb-12 ml-6 mr-12">
+            <div>
+            <p class="text-3xl text-[#08fbd6] mb-12"> About Me</p>
+        </div>
+            <div class="flex flex-col gap-3 text-xl font-mono">
+                <p>I’m a Front-End Developer located in India. I have a
+                    serious passion for UI effects, animations and creating intuitive, dynamic user experiences.</p>
+                <p>Well-organised person, problem solver, independent
+                    employee with high attention to detail. Fan of MMA, cricket & outdoor activities.</p>
+                <p>Interested in the entire frontend spectrum and working
+                    on ambitious projects with positive people.</p>
+            </div>
+        </div>
+        </div>
+        <!-- Skiils -->
+        <div>
+            <div class="mt-20 ml-12">
+                <p class="text-3xl text-[#08fbd6]"> Skills</p>
+            </div>
         </div>
     </div>
-    <section class="projects">
-        <div class="proj-cards">
-            <div class="prj-card">
-                <div class="prj-card-img">
-                    <img src="./assets/1.png" alt="">
-                </div>
-                <div class="prj-card-footer">
-                    <h3>The Vintage</h3>
-                    <a href="https://photoshoot-me.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
-                    <a href="https://github.com/shaquibkhan/Street-Style-Page" target="_blank"><i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-            <div class="prj-card">
-                <div class="prj-card-img">
-                    <img src="./assets/2.png" alt="">
-                </div>
-                <div class="prj-card-footer">
-                    <h3>Foodasa</h3>
-                    <a href="https://eat-me-up.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
-                    <a href="https://github.com/shaquibkhan/RestaurantLandingPage" target="_blank"><i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-            <div class="prj-card">
-                <div class="prj-card-img">
-                    <img src="./assets/4.png" alt="">
-                </div>
-                <div class="prj-card-footer">
-                    <h3>Marco Accent</h3>
-                    <a href="https://connect-me-with.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
-                    <a href="https://github.com/shaquibkhan/eCommercePage" target="_blank"><i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-            <div class="prj-card">
-                <div class="prj-card-img">
-                    <img src="./assets/5.png" alt="">
-                </div>
-                <div class="prj-card-footer">
-                    <h3>Mozaik</h3>
-                    <a href="https://build-better-tomorrow.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
-                    <a href="https://github.com/shaquibkhan/Crypto-Landing-Page" target="_blank"><i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-            <div class="prj-card">
-                <div class="prj-card-img">
-                    <img src="./assets/6.png" alt="">
-                </div>
-                <div class="prj-card-footer">
-                    <h3>Mozaik</h3>
-                    <a href="https://monstera-plant.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
-                    <a href="https://github.com/shaquibkhan/MonsteraPage" target="_blank"><i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-            <div class="prj-card">
-                <div class="prj-card-img">
-                    <img src="./assets/7.png" alt="">
-                </div>
-                <div class="prj-card-footer">
-                    <h3>Mozaik</h3>
-                    <a href="https://wireless-me.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
-                    <a href="https://github.com/shaquibkhan/Product-Home-Page" target="_blank"><i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-            <div class="prj-card">
-                <div class="prj-card-img">
-                    <img src="./assets/8.png" alt="">
-                </div>
-                <div class="prj-card-footer">
-                    <h3>Mozaik</h3>
-                    <a href="https://web-layout-page.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
-                    <a href="https://github.com/shaquibkhan/webDesignPage" target="_blank"><i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-            <div class="prj-card">
-                <div class="prj-card-img">
-                    <img src="./assets/9.png" alt="">
-                </div>
-                <div class="prj-card-footer">
-                    <h3>Mozaik</h3>
-                    <a href="https://api-category.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
-                    <a href="https://github.com/shaquibkhan/Api-Page" target="_blank"><i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-            <div class="prj-card">
-                <div class="prj-card-img">
-                    <img src="./assets/10.png" alt="">
-                </div>
-                <div class="prj-card-footer">
-                    <h3>Mozaik</h3>
-                    <a href="https://my-interior-design-landing-page.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
-                    <a href="https://github.com/shaquibkhan/Interior-Design-Landing-Page" target="_blank"><i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-            <div class="prj-card">
-                <div class="prj-card-img">
-                    <img src="./assets/11.png" alt="">
-                </div>
-                <div class="prj-card-footer">
-                    <h3>Mozaik</h3>
-                    <a href="https://hosting-land-page.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
-                    <a href="https://github.com/shaquibkhan/Hosting-Landing-Page" target="_blank"><i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-            <div class="prj-card">
-                <div class="prj-card-img">
-                    <img src="./assets/12.png" alt="">
-                </div>
-                <div class="prj-card-footer">
-                    <h3>Mozaik</h3>
-                    <a href="my-business-landing-page.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
-                    <a href="https://github.com/shaquibkhan/Business-Landing-Page" target="_blank"><i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-            <div class="prj-card">
-                <div class="prj-card-img">
-                    <img src="./assets/13.png" alt="">
-                </div>
-                <div class="prj-card-footer">
-                    <h3>Mozaik</h3>
-                    <a href="https://saas-land-page.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
-                    <a href="https://github.com/shaquibkhan/SAAS-Landing-Page" target="_blank"><i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-            <div class="prj-card">
-                <div class="prj-card-img">
-                    <img src="./assets/14.png" alt="">
-                </div>
-                <div class="prj-card-footer">
-                    <h3>Mozaik</h3>
-                    <a href="https://dancing-landing-page.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
-                    <a href="https://github.com/shaquibkhan/Dancing-Landing-Page" target="_blank"><i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-            <div class="prj-card">
-                <div class="prj-card-img">
-                    <img src="./assets/15.png" alt="">
-                </div>
-                <div class="prj-card-footer">
-                    <h3>Mozaik</h3>
-                    <a href="https://designhome-landing-page.netlify.app"><i class="fa-solid fa-link"></i></a>
-                    <a href="https://github.com/shaquibkhan/ProductDesignLandingPage" target="_blank"><i class="fa-brands fa-github"></i></a>
-                </div>
+    <!-- experience section  -->
+    <section class="bg-[#181818] w-full" id="experience">
+        <h1 class="text-center text-5xl text-white pt-16 hover:[#08fbd6] hover:text-[#08fbd6]">Corporate Experience</h1>
+       
+                <div class="py-2 inline-block min-w-full mt-32">
+                    <div class="flex flex-col gap-8 md:flex-row justify-around exp-cards">
+                       <div class="flex flex-col gap-2 items-center rounded exp-card bg-[#08fbd6]">
+                                <img class="rounded mt-2 company-img " src="./assets/eclerx-img.jpg" alt="">
+                                <h1 class="text-xl text-semibold">eClerx Services Pvt. Ltd</h1>
+                                <p class="text-xl text-[#000]">28th Nov 2017 - 5th Jan 2019</p>
+                       </div>
+                       <div class="flex flex-col gap-2 items-center rounded exp-card bg-[#08fbd6]">
+                                <img class="rounded mt-2 company-img " src="./assets/persi-img.jpg" alt="">
+                                <h1 class="text-xl text-semibold">Persistent Systems</h1>
+                                <p class="text-xl text-[#000]">5th Jan 2019 - 9th Apr 2021</p>
+                       </div>
+                       <div class="flex flex-col gap-2 items-center rounded exp-card bg-[#08fbd6]">
+                                <img class="rounded mt-2 company-img " src="./assets/tcs-img.webp" alt="">
+                                <h1 class="text-xl text-semibold">T C S</h1>
+                                <p class="text-xl text-[#000]">14th Apr 2021 - Till Date</p>
+                       </div>
             </div>
         </div>
     </section>
+     <!-- education section  -->
+     <section class="bg-[#181818] w-full" id="education">
+        <h1 class="text-center text-5xl text-white pt-16 hover:[#08fbd6] hover:text-[#08fbd6]">Educational Background</h1>
+       
+                <div class="py-2 inline-block min-w-full mt-32">
+                    <div class="flex flex-col gap-8 md:flex-row justify-around exp-cards">
+                       <div class="flex flex-col gap-2 items-center rounded exp-card bg-[#08fbd6]">
+                                <img class="rounded mt-2 company-img " src="./assets/eclerx-img.jpg" alt="">
+                                <h1 class="text-xl text-semibold">S.T. Karen's High School</h1>
+                                <p class="text-xl text-[#000]">1997 - 2009</p>
+                       </div>
+                       <div class="flex flex-col gap-2 items-center rounded exp-card bg-[#08fbd6]">
+                                <img class="rounded mt-2 company-img " src="./assets/persi-img.jpg" alt="">
+                                <h1 class="text-xl text-semibold">D.C. Inter College</h1>
+                                <p class="text-xl text-[#000]">2010 - 2012</p>
+                       </div>
+                       <div class="flex flex-col gap-2 items-center rounded exp-card bg-[#08fbd6]">
+                                <img class="rounded mt-2 company-img " src="./assets/tcs-img.webp" alt="">
+                                <h1 class="text-xl text-semibold">Al Falah University</h1>
+                                <p class="text-xl text-[#000]">2012 - 2016</p>
+                       </div>
+            </div>
+        </div>
+    </section>
+    <!-- skills -->
+    <section class="bg-[#181818] w-full" id="skills">
+        <h1 class="text-center text-5xl text-white pt-16 hover:[#08fbd6] hover:text-[#08fbd6]">Skills</h1>
+       <div class="">
+        <div class="mt-20 flex gap-12">
+        <div class="" id="myProgress">
+            <div class="" id="html"></div>
+        </div>
+        <div>
+            <p class="text-center md:text-2xl text-[#08fbd6]" id="p">HTML5</p>
+        </div>
+    </div>
+        <div class="mt-20 flex gap-12">
+        <div class="" id="myProgress">
+            <div class="" id="css"></div>
+        </div>
+        <div>
+            <p class="text-center md:text-2xl text-[#08fbd6]" id="p">CSS</p>
+        </div>
+    </div>
+        <div class="mt-20 flex gap-12">
+        <div class="" id="myProgress">
+            <div class="" id="tail"></div>
+        </div>
+        <div>
+            <p class="text-center  md:text-2xl text-[#08fbd6]" id="p">Tailwind CSS</p>
+        </div>
+    </div>
+    <div class="mt-20 flex gap-12">
+        <div class="" id="myProgress">
+            <div class="" id="boots"></div>
+        </div>
+        <div>
+            <p class="text-center md:text-2xl text-[#08fbd6]" id="p">Bootstrap</p>
+        </div>
+    </div>
+    <div class="mt-20 flex gap-12">
+        <div class="" id="myProgress">
+            <div class="" id="js"></div>
+        </div>
+        <div>
+            <p class="text-center md:text-2xl text-[#08fbd6]" id="p">JAVASCRIPT</p>
+        </div>
+    </div>
+</div>
+    </section>
+
+    <section class="bg-[#1d1d1d] projects">
+        <h1 class="text-center text-5xl text-white pt-16 hover:[#08fbd6] hover:text-[#08fbd6]">My Work</h1>
+        <div class="proj-cards pt-32">
+            <div class="flex flex-col md:flex-row justify-around  gap-12">
+            <div class="prj-card flex-col">
+                <div class="prj-card-img  w-[450px] h-[300px]">
+                    <img src="./assets/1.png" alt="">
+                </div>
+                <div class="prj-card-footer bg-[#08fbd6]">
+                    <h3>The Vintage</h3>
+                    <a href="https://photoshoot-me.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    <a href="https://github.com/shaquibkhan/Street-Style-Page" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div> 
+             <div class="prj-card flex-col">
+                <div class="prj-card-img  w-[450px] h-[300px]">
+                    <img src="./assets/2.png" alt="">
+                </div>
+                <div class="prj-card-footer bg-[#08fbd6]">
+                    <h3>Foodasa</h3>
+                    <a href="https://eat-me-up.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    <a href="https://github.com/shaquibkhan/RestaurantLandingPage" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="prj-card flex-col">
+                <div class="prj-card-img  w-[450px] h-[300px]">
+                    <img src="./assets/4.png" alt="">
+                </div>
+                <div class="prj-card-footer bg-[#08fbd6]">
+                    <h3>Marco Accent</h3>
+                    <a href="https://connect-me-with.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    <a href="https://github.com/shaquibkhan/eCommercePage" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row justify-around  gap-12">
+            <div class="flex-col prj-card">
+                <div class="prj-card-img  w-[450px] h-[300px]">
+                    <img src="./assets/5.png" alt="">
+                </div>
+                <div class="prj-card-footer bg-[#08fbd6]">
+                    <h3>Mozaik</h3>
+                    <a href="https://build-better-tomorrow.netlify.app/" target="_blank"><i
+                            class="fa-solid fa-link"></i></a>
+                    <a href="https://github.com/shaquibkhan/Crypto-Landing-Page" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="flex-col prj-card">
+                <div class="prj-card-img  w-[450px] h-[300px]">
+                    <img src="./assets/6.png" alt="">
+                </div>
+                <div class="prj-card-footer bg-[#08fbd6]">
+                    <h3>Mozaik</h3>
+                    <a href="https://monstera-plant.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    <a href="https://github.com/shaquibkhan/MonsteraPage" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="flex-col prj-card">
+                <div class="prj-card-img  w-[450px] h-[300px]">
+                    <img src="./assets/7.png" alt="">
+                </div>
+                <div class="prj-card-footer bg-[#08fbd6]">
+                    <h3>Mozaik</h3>
+                    <a href="https://wireless-me.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    <a href="https://github.com/shaquibkhan/Product-Home-Page" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row justify-around  gap-12">
+            <div class="flex-col prj-card">
+                <div class="prj-card-img  w-[450px] h-[300px]">
+                    <img src="./assets/8.png" alt="">
+                </div>
+                <div class="prj-card-footer bg-[#08fbd6]">
+                    <h3>Mozaik</h3>
+                    <a href="https://web-layout-page.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    <a href="https://github.com/shaquibkhan/webDesignPage" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="flex-col prj-card">
+                <div class="prj-card-img  w-[450px] h-[300px]">
+                    <img src="./assets/9.png" alt="">
+                </div>
+                <div class="prj-card-footer bg-[#08fbd6]">
+                    <h3>Mozaik</h3>
+                    <a href="https://api-category.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    <a href="https://github.com/shaquibkhan/Api-Page" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="flex-col prj-card">
+                <div class="prj-card-img  w-[450px] h-[300px]">
+                    <img src="./assets/10.png" alt="">
+                </div>
+                <div class="prj-card-footer bg-[#08fbd6]">
+                    <h3>Mozaik</h3>
+                    <a href="https://my-interior-design-landing-page.netlify.app/" target="_blank"><i
+                            class="fa-solid fa-link"></i></a>
+                    <a href="https://github.com/shaquibkhan/Interior-Design-Landing-Page" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row justify-around  gap-12">
+            <div class="flex-col prj-card">
+                <div class="prj-card-img  w-[450px] h-[300px]">
+                    <img src="./assets/11.png" alt="">
+                </div>
+                <div class="prj-card-footer bg-[#08fbd6]">
+                    <h3>Mozaik</h3>
+                    <a href="https://hosting-land-page.netlify.app/" target="_blank"><i
+                            class="fa-solid fa-link"></i></a>
+                    <a href="https://github.com/shaquibkhan/Hosting-Landing-Page" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="flex-col prj-card">
+                <div class="prj-card-img  w-[450px] h-[300px]">
+                    <img src="./assets/12.png" alt="">
+                </div>
+                <div class="prj-card-footer bg-[#08fbd6]">
+                    <h3>Mozaik</h3>
+                    <a href="my-business-landing-page.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    <a href="https://github.com/shaquibkhan/Business-Landing-Page" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="flex-col prj-card">
+                <div class="prj-card-img  w-[450px] h-[300px]">
+                    <img src="./assets/13.png" alt="">
+                </div>
+                <div class="prj-card-footer bg-[#08fbd6]">
+                    <h3>Mozaik</h3>
+                    <a href="https://saas-land-page.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    <a href="https://github.com/shaquibkhan/SAAS-Landing-Page" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row justify-around  gap-12">
+            <div class="flex-col prj-card">
+                <div class="prj-card-img  w-[450px] h-[300px]">
+                    <img src="./assets/14.png" alt="">
+                </div>
+                <div class="prj-card-footer bg-[#08fbd6]">
+                    <h3>Mozaik</h3>
+                    <a href="https://dancing-landing-page.netlify.app/" target="_blank"><i
+                            class="fa-solid fa-link"></i></a>
+                    <a href="https://github.com/shaquibkhan/Dancing-Landing-Page" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="flex-col prj-card">
+                <div class="prj-card-img  w-[450px] h-[300px]">
+                    <img src="./assets/15.png" alt="">
+                </div>
+                <div class="prj-card-footer bg-[#08fbd6]">
+                    <h3>Mozaik</h3>
+                    <a href="https://designhome-landing-page.netlify.app"><i class="fa-solid fa-link"></i></a>
+                    <a href="https://github.com/shaquibkhan/ProductDesignLandingPage" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section> 
+    <script src="./action.js"></script>
 </body>
 
 </html>
