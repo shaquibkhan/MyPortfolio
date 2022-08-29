@@ -2,6 +2,8 @@
 #myProgress{
     background-color: black;
     width: 50%;
+    margin-left: 80px;
+    margin-bottom: 20px;
 }
 #html{
     background-color: aqua;
@@ -27,4 +29,10 @@
     background-color: aqua;
     width: 20%;
     height: 30px;
+}
+.skills{
+    display: flex;
+    /* flex-direction: column; */
+    justify-items: center;
+    justify-content: center;
 }
