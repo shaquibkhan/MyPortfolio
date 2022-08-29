@@ -551,6 +551,18 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-2 {
+  margin: 0.5rem;
+}
+
+.m-12 {
+  margin: 3rem;
+}
+
+.m-4 {
+  margin: 1rem;
+}
+
 .mx-3 {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -618,6 +630,10 @@ video {
 
 .ml-\[30\] {
   margin-left: 30;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .inline-block {
@@ -692,6 +708,10 @@ video {
   width: 700px;
 }
 
+.w-\[350px\] {
+  width: 350px;
+}
+
 .min-w-full {
   min-width: 100%;
 }
@@ -714,6 +734,10 @@ video {
 
 .max-w-\[450px\] {
   max-width: 450px;
+}
+
+.max-w-\[350px\] {
+  max-width: 350px;
 }
 
 .flex-col {
@@ -821,6 +845,10 @@ video {
 
 .pb-12 {
   padding-bottom: 3rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .text-center {
