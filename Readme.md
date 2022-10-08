@@ -16,15 +16,5 @@
 
   -It simplify our code base since we can embed the css in the HTML file itself.
 
-   ### Important points to remember 
-
-   >1. for making any div or section give full viewport height
-
-   ``` h-screen ```
-
->2.  To change the text- color
-``` text-[#000] ```
-
->3. To use flex
-``` flex ```
->4. 
+ ## Live Link
+ `MY PORTFOLIO -` [Shaquib Khan](https://shaquib-khan-portfolio.netlify.app/)
